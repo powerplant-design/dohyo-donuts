@@ -47,6 +47,7 @@ h1 {
 
 .logo-container img {
   height: 40vw;
+  max-height: 520px;
   pointer-events: none;
   mix-blend-mode: screen;
 }
