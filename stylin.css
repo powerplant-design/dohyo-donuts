@@ -18,6 +18,7 @@ h1 {
   right: 0;
   min-width: 100vw;
   min-height: 100vh;
+  background-color: #f15822;
   /* background-color: blue; */
   /* background-blend-mode: multiply; */
 }
@@ -28,7 +29,6 @@ h1 {
   right: 0;
   min-width: 100vw;
   min-height: 100vh;
-  background-color: #f15822;
   z-index: 666;
   mix-blend-mode: screen;
 } */
