@@ -22,7 +22,7 @@ h1 {
   /* background-blend-mode: multiply; */
 }
 
-.vid-color {
+/* .vid-color {
   position: fixed;
   top: 0;
   right: 0;
@@ -31,7 +31,7 @@ h1 {
   background-color: #f15822;
   z-index: 666;
   mix-blend-mode: screen;
-}
+} */
 
 .logo-container {
   position: fixed;
