@@ -18,20 +18,20 @@ h1 {
   right: 0;
   min-width: 100vw;
   min-height: 100vh;
+  background-color: #f15822;
   /* background-color: blue; */
   /* background-blend-mode: multiply; */
 }
 
-.vid-color {
+/* .vid-color {
   position: fixed;
   top: 0;
   right: 0;
   min-width: 100vw;
   min-height: 100vh;
-  background-color: #f15822;
   z-index: 666;
   mix-blend-mode: screen;
-}
+} */
 
 .logo-container {
   position: fixed;
