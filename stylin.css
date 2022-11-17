@@ -1,0 +1,102 @@
+@font-face {
+  font-family: Plaak;
+  src: url(./assets/Plaak-56ExpandedBlack.otf);
+}
+
+body {
+  font-family: "Plaak";
+  /* background: blue; */
+}
+
+h1 {
+  font-family: arial;
+}
+
+#dohyo-bg-vid-loop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  /* background-color: blue; */
+  /* background-blend-mode: multiply; */
+}
+
+.vid-color {
+  position: fixed;
+  top: 0;
+  right: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #f15822;
+  z-index: 666;
+  mix-blend-mode: screen;
+}
+
+.logo-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 75vh;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container img {
+  height: 40vw;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  min-width: 100vw;
+  height: 25vh;
+  color: #ffffff;
+  background: linear-gradient(transparent, #f15822, #f15822);
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 1.6em;
+}
+
+.footer-wrapper {
+  width: 60vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer a {
+  font-size: 1.6em;
+  text-decoration: none;
+  color: #ffffff;
+  transition: letter-spacing 300ms;
+}
+
+footer a:hover {
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-container img {
+    height: unset;
+    width: 70vw;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+  }
+
+  footer a {
+    padding-top: 0.6em;
+    font-size: 1.4em;
+    text-align: center;
+  }
+}
